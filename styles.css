@@ -1,0 +1,146 @@
+body {
+    background-color:#f1f1f1;
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /* font: normal 16px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: grey;
+}
+
+.avatar {
+    width:250px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0, 25);
+
+/* для применения стилей к чему-либо можно использовать: 
+1) class - прописывать через точку и название 
+2) id - прописывать УНИКАЛЬНЫЙ id элементу, к кот-му прим-ся стиль*/
+}
+
+.info{
+display: flex;
+margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .info {
+      display: block;  
+      text-align: center;
+    }
+}
+
+.info-text {
+    margin-left: 30px;
+}
+
+
+.info p {
+    color: #78797a;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-size: 20px;
+    /* сделать перенос инфо-блока рядом с фото */
+}
+.bg-yellow {
+    background: #fbf0b9;
+}
+
+.bg-green {
+    background: #c0f6c5;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #525252;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td{
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.contact h2 {
+    text-align:  center;
+}
+
+.form-group {
+    display: block;
+    font-size: 16px;
+    color: #143c8c;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.btn {
+    background: #000000;
+    color: #ffffff;
+    padding: 15px 20px;
+    font-family: inherit;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}

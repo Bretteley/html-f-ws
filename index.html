@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Frog site</title>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="info">
+        <img src="frog.jpg"  alt="лягушка показывает пис" class="avatar"/> 
+        
+    <div class="info-text">
+        <h1> Это среда, мои чуваки </h1>
+        <p>Я рукодельница</p>
+<!-- тег <em> добавляет структуру, в отличие от тега <i> -->
+        <p>Вяжу забавные игрушки на <strong>заказ</strong></p>
+        <h4>Социальные сети</h4>
+    <a href="https://t.me/bretteley" target="_blank">Telegram</a>
+    |
+        <a href="https://vk.com/bretteley" target="_blank">VK</a>
+    </div>
+    </div>
+    
+
+
+        <!-- Для тега <a> нужен атрибут "href" чтобы ссылка работала -->
+    <!-- target="_blank" этот атрибут позволяет открывать ссылку на другой странице, а не в той же-->
+    </ul>
+
+    <div class="card bg-yellow">
+        <h2>Другие увлечения</h2>
+        <ol class="list">
+            <li>Чтение</li>
+            <li>Аниме</li>
+            <li>Фотографии</li>
+        </ol>
+    </div>
+
+    <div class="card bg-green">
+        <h2>Работы</h2>
+             <table class="table">
+                <tr>
+                    <th> Тип работы</th>
+                    <th> Масштаб работы </th>
+                    <th> Цена </th>
+                </tr> 
+
+                <tr>
+                    <td>На заказ</td>
+                    <td>Маленькая</td>
+                    <td>200 р</td>
+                </tr>
+        
+        
+            </table>
+    </div>
+    <br>
+        <div class="contact"> 
+            <h2>Сделать заказ</h2>
+            <p>Если вы желаете заказать игрушки - заполните форму или напишите
+                мне в одной из социальных сетей
+            </p>
+
+            <form action="/">
+                <div class="row"> 
+                    <div class="form-group"> 
+                        <label for="name">Ваше имя:</label>
+                    <input type="text" id="name"
+                    placeholder="Введите ваше имя...">
+                    </div>
+                
+            <div class="form-group"> 
+                <label for="e-mail">Ваш e-mail:</label>
+                    <input type="email" id="e-mail"
+                    placeholder="Введите e-mail">
+            </div>
+                </div>
+               
+                
+        <div class="form-group"> 
+            <label for="text">Краткий заказ:</label>
+                <br>
+                <textarea id="text" rows="4"></textarea>
+        </div>
+                <input class="btn" type="submit"
+                value="Отправить заявку" /> 
+            </form>
+        </div>
+                
+        </div>
+    
+
+    
+</div>
+</body>
+</html>
